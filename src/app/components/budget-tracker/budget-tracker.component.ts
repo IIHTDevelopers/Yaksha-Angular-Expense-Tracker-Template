@@ -11,10 +11,6 @@ export class BudgetTrackerComponent {
   newExpense: Expense = { id: 0, description: '', amount: 0, date: '', category: 'cash' };
   editingExpense: Expense | null = null;
 
-  constructor() {
-    // write your logic here
-  }
-
   addOrUpdateExpense() {
     // write your logic here
     // feel free to remove this
